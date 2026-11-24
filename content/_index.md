@@ -28,7 +28,7 @@ sections:
       text: |-
         I study how molecules bind, move, and assemble. My work combines all-atom and coarse-grained molecular dynamics with enhanced sampling, free-energy calculations, and machine learning. I also develop software for reproducible simulation setup and molecular featurization.
 
-        I am interested in visiting doctoral research and joint training abroad, postdoctoral research after graduation, and R&D roles in computational chemistry, molecular modeling, and scientific software.
+        I am interested in research visits and joint doctoral training, postdoctoral opportunities after graduation, and R&D roles in computational chemistry, molecular modeling, and scientific software.
     design:
       columns: '1'
 
@@ -67,6 +67,8 @@ sections:
         Zhejiang University · Hangzhou, China
 
         For research opportunities or collaboration, email [gxf1212@zju.edu.cn](mailto:gxf1212@zju.edu.cn).
+
+        **Research writing and outreach** · [Mendelevium](https://gxf1212.github.io/mendelevium/) · [Research Notes](https://gxf1212.github.io/notes/#/) · [Bilibili — 东山月光下](https://space.bilibili.com/441196634) · [Zhihu](https://www.zhihu.com/people/wo-zhen-de-hao-cai-a)
     design:
       columns: '1'
 ---

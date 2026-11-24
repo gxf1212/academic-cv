@@ -54,12 +54,14 @@ def build():
     scholar = link("Google Scholar", "https://scholar.google.com/citations?user=f8pi1BUAAAAJ")
     orcid = link("ORCID", "https://orcid.org/0009-0004-0065-3172")
     portfolio = link("Academic portfolio", "https://gxf1212.github.io/academic-cv/")
+    notes = link("Research notes", "https://gxf1212.github.io/notes/#/")
+    advisor = link("Prof. Ruhong Zhou", "https://person.zju.edu.cn/en/ruhong")
 
     story = [
         Paragraph("Xufan Gao", STYLE["name"]),
         Paragraph("Doctoral Researcher in Computational Biophysics", STYLE["role"]),
-        Paragraph("Zhejiang University | Hangzhou, China", STYLE["contact"]),
-        Paragraph(" &nbsp;|&nbsp; ".join([email, github, scholar, orcid, portfolio]), STYLE["contact"]),
+        Paragraph("College of Life Sciences, Zhejiang University | Hangzhou, China", STYLE["contact"]),
+        Paragraph(" &nbsp;|&nbsp; ".join([email, github, scholar, orcid, portfolio, notes]), STYLE["contact"]),
         Spacer(1, 3 * mm),
     ]
 
@@ -74,7 +76,7 @@ def build():
 
     section("Education", [
         "<b>Zhejiang University</b> | Doctoral studies in Biophysics, 2022-present<br/>"
-        "Advisor: Prof. Ruhong Zhou.",
+        f"Advisor: {advisor}, Qiushi Chair Professor.",
         "<b>Xi'an Jiaotong University</b> | B.Sc. in Biotechnology, 2018-2022<br/>"
         "Honor Science Program (Zhufeng Project).",
         "<b>National University of Singapore</b> | Exchange study and undergraduate research, Jan-May 2021.",
@@ -102,7 +104,7 @@ def build():
         "Zhou, R., Zhang, G., Fu, Y., Buratto, D., Chan, K., Wang, H., Huang, Y., Gong, S.-M., "
         "Xu, C., <b>Gao, X.</b>, Huang, L., &amp; Yang, Z. (2026). Self-guided reinforcement learning "
         "enables HLA-presented peptide vaccine candidate design. <i>Research Square</i>. "
-        + link("DOI", "https://doi.org/10.21203/rs.3.rs-9120093/v1"),
+        + link("Preprint v1", "https://doi.org/10.21203/rs.3.rs-9120093/v1"),
     ])
 
     story.append(PageBreak())
@@ -111,7 +113,8 @@ def build():
         "<b>Graduate Researcher | Zhejiang University, 2022-present</b><br/>"
         "Develop molecular simulation and free-energy workflows for biomolecular interactions and drug design. "
         "Combine coarse-grained simulation and interpretable machine learning to study polymer assembly, "
-        "membrane affinity, and cellular uptake.",
+        "membrane affinity, and cellular uptake. "
+        + link("Public polymer–membrane data and code", "https://github.com/gxf1212/OP_unit_paper"),
         "<b>Undergraduate Researcher | Xi'an Jiaotong University, 2020-2021</b><br/>"
         "Worked on virtual screening, molecular dynamics, and machine-learning models for biological and chemical datasets.",
     ])
@@ -130,7 +133,8 @@ def build():
 
     section("Presentation and Intellectual Property", [
         "<b>ACS Fall 2024</b> | Presented the FEbuilder poster (Board 107). "
-        + link("Program entry", "https://acs.digitellinc.com/p/s/febuilder-a-comprehensive-webserver-to-streamline-fep-simulation-setup-in-drug-discovery-poster-board-107-601529"),
+        + link("ACS Poster", "https://acs.digitellinc.com/p/s/febuilder-a-comprehensive-webserver-to-streamline-fep-simulation-setup-in-drug-discovery-poster-board-107-601529")
+        + " | " + link("Zenodo", "https://doi.org/10.5281/zenodo.14059079"),
         "<b>Software copyright registration</b> | Physics- and Knowledge-Driven Tumor Neoantigen Design "
         "Platform (V1.0), China, No. 2025SR1378910 (2025).",
         "<b>Patent application</b> | Membrane affinity prediction for zwitterionic polymer monomers, "

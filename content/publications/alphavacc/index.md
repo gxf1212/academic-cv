@@ -19,7 +19,7 @@ publication_types: [article]
 publication:
   name: Research Square
 peer_reviewed: false
-summary: Research Square preprint.
+summary: Research Square v1 preprint.
 ---
 
-[Research Square preprint · 10.21203/rs.3.rs-9120093/v1](https://doi.org/10.21203/rs.3.rs-9120093/v1)
+[Research Square v1 · 10.21203/rs.3.rs-9120093/v1](https://doi.org/10.21203/rs.3.rs-9120093/v1)

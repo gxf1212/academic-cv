@@ -15,3 +15,6 @@ main:
   - name: Presentations
     pageRef: /events
     weight: 50
+  - name: CV
+    url: uploads/Xufan-Gao-CV.pdf
+    weight: 60

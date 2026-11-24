@@ -9,7 +9,8 @@ name:
   alternate: 高旭帆
 role: Doctoral Researcher in Biophysics
 bio: |
-  I am a doctoral researcher at Zhejiang University, advised by Prof. Ruhong Zhou.
+  I am a doctoral researcher in the College of Life Sciences at Zhejiang University.
+  My advisor is [Prof. Ruhong Zhou](https://person.zju.edu.cn/en/ruhong), Qiushi Chair Professor.
   I use molecular dynamics, free-energy calculations, and machine learning to study biomolecular interactions
   and build reproducible computational workflows for drug discovery and biomaterials research.
 
@@ -32,39 +33,42 @@ links:
     label: ORCID
 
 interests:
-  - Molecular dynamics and free-energy methods
+  - Molecular simulation, enhanced sampling, and free-energy calculations
   - Structure-based drug design
   - Molecular machine learning
   - Polymer–membrane interactions
-  - Reproducible scientific software
+  - Protein–metal binding and bioinorganic chemistry
+  - Enzyme mechanisms and QM/MM
 
 # Degree dates follow the academic calendar. The day is a formatting value.
 education:
   - degree: Doctoral Studies in Biophysics
     institution: Zhejiang University
+    year: Sep 2022–Present
     start: 2022-09-01
     summary: |
-      Advised by Prof. Ruhong Zhou. Research in molecular simulation, free-energy methods,
+      Advised by [Prof. Ruhong Zhou](https://person.zju.edu.cn/en/ruhong), Qiushi Chair Professor. Research in molecular simulation, free-energy methods,
       computer-aided drug design, and molecular machine learning.
       <!-- TODO: Add the official degree title, dissertation title, and expected defense and graduation dates once confirmed. -->
   - degree: B.Sc. in Biotechnology
     institution: Xi'an Jiaotong University
+    year: 2018–2022
     start: 2018-09-01
     end: 2022-06-30
     summary: |
       Honor Science Program (Zhufeng Project), with coursework in biology and chemistry.
   - degree: Exchange Study and Undergraduate Research
     institution: National University of Singapore
+    year: Jan–May 2021
     start: 2021-01-01
     end: 2021-05-31
     summary: |
-      January–May 2021. Undergraduate research on virtual screening and molecular dynamics of ligands for the TDP-43 RNA recognition motif.
+      Undergraduate research on virtual screening and molecular dynamics of ligands for the TDP-43 RNA recognition motif.
   - degree: Summer Enrichment Program in Applied Mathematics
     institution: University of Alberta
+    year: Jul–Aug 2019
     start: 2019-07-01
     end: 2019-08-31
-    summary: |
-      July–August 2019.
 
 experience:
   - role: Graduate Researcher

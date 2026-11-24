@@ -7,6 +7,7 @@ sections:
   - block: collection
     content:
       title: Research and Software Projects
+      count: 0
       text: Selected work in molecular simulation, drug discovery, and scientific software.
       filters:
         folders:
@@ -23,10 +24,10 @@ sections:
     content:
       title: Research Infrastructure and Outreach
       text: |-
-        - [md-highlighter](https://github.com/gxf1212/md-highlighter) — VS Code syntax highlighting for molecular modeling and simulation files.
-        - [Institute of Quantitative Biology website](https://github.com/gxf1212/Institution-of-Quantitative-Biology-Zhejiang-University) — Website development and maintenance for Zhejiang University’s institute.
-        - [ACS Paper Crawler](https://github.com/gxf1212/ACS_crawler) — Web interface and analytics for collecting and exploring ACS paper metadata.
-        - [Mendelevium](https://gxf1212.github.io/mendelevium/) and [Research Notes](https://gxf1212.github.io/notes/) — Writing and tutorials on molecular simulation, free-energy calculations, and research computing.
+        - **md-highlighter** — VS Code syntax highlighting for molecular modeling and simulation files. [Source](https://github.com/gxf1212/md-highlighter) · [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=gxf1212.md-highlighter)
+        - **Institute of Quantitative Biology, Zhejiang University** — Website development and maintenance. [Institute website](http://iqb.zju.edu.cn/en/)
+        - **ACS Paper Crawler** — Web interface and analytics for exploring ACS paper metadata. [Source](https://github.com/gxf1212/ACS_crawler) · [Documentation](https://acs-crawler.readthedocs.io/)
+        - **IQB Journal Club Beamer template** — LaTeX slides for scientific presentations. [GitHub](https://github.com/gxf1212/IQB-JC-Beamer-Template)
     design:
       columns: '1'
 ---

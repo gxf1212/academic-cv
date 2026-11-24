@@ -3,6 +3,8 @@
 
 English-language academic website for research collaborations, visiting doctoral and joint-training opportunities, postdoctoral applications, and computational research and development roles. The site uses HugoBlox and is configured for GitHub Pages.
 
+[Academic website](https://gxf1212.github.io/academic-cv/) · [Google Scholar](https://scholar.google.com/citations?user=f8pi1BUAAAAJ) · [ORCID](https://orcid.org/0009-0004-0065-3172) · [Research Notes](https://gxf1212.github.io/notes/#/) · [Mendelevium](https://gxf1212.github.io/mendelevium/) · [Bilibili](https://space.bilibili.com/441196634)
+
 ## Local preview
 
 Install Go, the extended Hugo version specified in [hugoblox.yaml](hugoblox.yaml), Node.js 22.13 or newer, and the pnpm version in [package.json](package.json). Then run

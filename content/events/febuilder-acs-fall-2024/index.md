@@ -18,4 +18,4 @@ Xufan Gao, Zhaoqi Shi, and Ruhong Zhou. Poster Board 107.
 
 The poster introduces FEbuilder’s workflow for preparing small-molecule free-energy perturbation simulations.
 
-[Archived poster](https://doi.org/10.5281/zenodo.14059079)
+[ACS Poster](https://acs.digitellinc.com/p/s/febuilder-a-comprehensive-webserver-to-streamline-fep-simulation-setup-in-drug-discovery-poster-board-107-601529) · [Zenodo](https://doi.org/10.5281/zenodo.14059079)
